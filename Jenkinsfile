@@ -1,13 +1,6 @@
 
 pipeline {
-  agent {
-   any
-  }
-  
-  options {
-  
-  }
- 
+  agent any
 
   stages {
 

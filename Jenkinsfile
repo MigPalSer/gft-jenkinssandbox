@@ -5,9 +5,7 @@ pipeline {
   stages {
 
 	stage('test') {
-      when {
-        branch "master"
-      }
+
       steps {
         sh "ola ke ase jenkins"
       }

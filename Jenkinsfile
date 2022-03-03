@@ -7,14 +7,17 @@ pipeline {
 	stage('test') {
 
       steps {
-        sh echo "ola ke ase jenkins"
+        script{
+          sh echo "ola ke ase jenkins"}
       }
       post {
         success {
-          sh echo "weeee"
+          script{
+          sh echo "weeee"}
         }
         failure {
-          sh echo "buuuuh"
+          script{
+          sh echo "buuuuh" }
         }
       }
     } //stage    

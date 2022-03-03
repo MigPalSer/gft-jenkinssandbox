@@ -8,16 +8,16 @@ pipeline {
 
       steps {
         script{
-          sh echo "ola ke ase jenkins"}
+          sh "echo ola ke ase jenkins"}
       }
       post {
         success {
           script{
-          sh echo "weeee"}
+          sh "echo weeee"}
         }
         failure {
           script{
-          sh echo "buuuuh" }
+          sh "echo buuuuh" }
         }
       }
     } //stage    
